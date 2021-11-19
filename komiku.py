@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from urllib.error import HTTPError
 from urllib.request import Request
 from urllib.parse import urljoin
-import time
 import threading
 
 headers = {'User-Agent':'Mozilla/5.0 (X11; CrOS x86_64 8172.45.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.64 Safari/537.36'}
